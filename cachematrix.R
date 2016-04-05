@@ -1,7 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## this function take numbers then turn into matrix format
 makeCacheMatrix <- function(x = matrix()) {
         reverse <- NULL
         set <- function(y) {
@@ -17,7 +14,8 @@ makeCacheMatrix <- function(x = matrix()) {
              getreverse = getreverse)
 }
 
-## Write a short comment describing this function
+## this function then grab matrix from makecacheMatrix then perform inverse 
+## matrix. 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
